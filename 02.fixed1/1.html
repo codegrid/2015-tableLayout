@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>tableLayout demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  
+  <h2>table-layoutがautoの場合</h2>
+
+  <table style="table-layout:auto;width:300px">
+    <tr>
+      <td style="width:150px">TheLongTextInTheCellIsHere.</td>
+      <td style="width:150px"><img src="../shared/animals.jpg" width="300" height="300" alt=""></td>
+    </tr>
+  </table>
+
+  <table style="table-layout:auto;width:100%">
+    <tr>
+      <td style="width:300px">This cell's width shold be 300px.</td>
+      <td style="width:300px">This cell's too.</td>
+    </tr>
+  </table>
+
+  <h2>table-layoutがfixedの場合</h2>
+
+  <table style="table-layout:fixed;width:300px">
+    <tr>
+      <td style="width:150px">TheLongTextInTheCellIsHere.</td>
+      <td style="width:150px"><img src="../shared/animals.jpg" width="300" height="300" alt=""></td>
+    </tr>
+  </table>
+
+  <table style="table-layout:fixed;width:100%">
+    <tr>
+      <td style="width:300px">This cell's width shold be 300px.</td>
+      <td style="width:300px">This cell's too.</td>
+    </tr>
+  </table>
+  
+<!-- /.contianer --></div>
+
+</body>
+</html>

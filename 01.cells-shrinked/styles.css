@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+}
+table {
+  border-spacing: 0;
+}
+td:nth-child(odd) {
+  background: pink;
+}
+td:nth-child(even) {
+  background: orange;
+}

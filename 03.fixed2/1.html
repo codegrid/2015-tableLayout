@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>tableLayout demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  
+  <h2>table-layout: auto</h2>
+  
+  <h3>overflow:hidden</h3>
+  
+  <table style="table-layout:auto;width:300px">
+    <tr>
+      <td style="width:150px;overflow:hidden">TheLongTextInTheCellIsHere.</td>
+      <td style="width:150px;overflow:hidden"><img src="../shared/animals.jpg" width="300" height="300" alt=""></td>
+    </tr>
+  </table>
+
+  <h3>overflow:scroll</h3>
+  
+  <table style="table-layout:auto;width:300px">
+    <tr>
+      <td style="width:150px;overflow:scroll">TheLongTextInTheCellIsHere.</td>
+      <td style="width:150px;overflow:scroll"><img src="../shared/animals.jpg" width="300" height="300" alt=""></td>
+    </tr>
+  </table>
+
+  <h2>table-layout: fixed</h2>
+  
+  <h3>overflow:hidden</h3>
+  
+  <table style="table-layout:fixed;width:300px">
+    <tr>
+      <td style="width:150px;overflow:hidden">TheLongTextInTheCellIsHere.</td>
+      <td style="width:150px;overflow:hidden"><img src="../shared/animals.jpg" width="300" height="300" alt=""></td>
+    </tr>
+  </table>
+
+  <h3>overflow:scroll</h3>
+  
+  <table style="table-layout:fixed;width:300px">
+    <tr>
+      <td style="width:150px;overflow:scroll">TheLongTextInTheCellIsHere.</td>
+      <td style="width:150px;overflow:scroll"><img src="../shared/animals.jpg" width="300" height="300" alt=""></td>
+    </tr>
+  </table>
+  
+<!-- /.contianer --></div>
+
+</body>
+</html>
