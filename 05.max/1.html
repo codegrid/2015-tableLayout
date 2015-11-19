@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>tableLayout demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>セルの最大幅</h1>
+
+  <div class="freewrap">
+    <table>
+      <tr>
+        <td>The</td>
+        <td>ThisIsALongWord. Words are not separated.</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="freewrap">
+    <table>
+      <tr>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+        <td>ThisIsALongWord. Words are not separated.</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="freewrap">
+    <table>
+      <tr>
+        <td>あいうえお</td>
+        <td>かきくけこ</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="freewrap">
+    <table>
+      <tr>
+        <td><img src="../shared/animals.jpg" width="150" height="150" alt=""> Cute animals here and there.</td>
+        <td>Images are counted as it is one char. Br element is here!<br>my left!</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="freewrap">
+    <table>
+      <tr>
+        <td>
+          <ul>
+            <li>Hi! I'm a list!</li>
+            <li>Hi! I'm a list!</li>
+          </ul>
+        </td>
+        <td>List bullets!</td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+
+</body>
+</html>

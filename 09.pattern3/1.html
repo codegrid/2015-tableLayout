@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>tableLayout demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>パターン3: 最大の表幅が利用可能な領域幅よりも広く、最小の表幅は利用可能な領域幅よりも狭い場合</h1>
+
+  <h2>その1</h2>
+
+  <h3>最小幅</h3>
+
+  <div class="tablewrap">
+    <table width="1">
+      <tr>
+        <td>The quick brown</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+    </table>
+  </div>
+
+  <h3>最大幅</h3>
+
+  <div class="tablewrap">
+    <table style="margin-right:-9000px">
+      <tr>
+        <td>The quick brown</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+    </table>
+  </div>
+
+  <h3>特に何もしていない場合</h3>
+
+  <div class="tablewrap">
+    <table>
+      <tr>
+        <td>The quick brown</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+    </table>
+  </div>
+
+  <h2>その2</h2>
+
+  <h3>最小幅</h3>
+
+  <div class="tablewrap">
+    <table width="1">
+      <tr>
+        <td>The quick brown fox jumps over the</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+    </table>
+  </div>
+
+  <h3>最大幅</h3>
+
+  <div class="tablewrap">
+    <table style="margin-right:-9000px">
+      <tr>
+        <td>The quick brown fox jumps over the</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+    </table>
+  </div>
+
+  <h3>特に何もしていない場合</h3>
+
+  <div class="tablewrap">
+    <table>
+      <tr>
+        <td>The quick brown fox jumps over the</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+    </table>
+  </div>
+
+  <h2>その3</h2>
+
+  <h3>最小幅</h3>
+
+  <div class="tablewrap">
+    <table width="1">
+      <tr>
+        <td>The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+    </table>
+  </div>
+
+  <h3>最大幅</h3>
+
+  <div class="tablewrap">
+    <table style="margin-right:-9000px">
+      <tr>
+        <td>The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+    </table>
+  </div>
+
+  <h3>特に何もしていない場合</h3>
+
+  <div class="tablewrap">
+    <table>
+      <tr>
+        <td>The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</td>
+        <td>The quick brown fox jumps over the lazy dog.</td>
+      </tr>
+    </table>
+  </div>
+
+
+</div>
+
+</body>
+</html>
