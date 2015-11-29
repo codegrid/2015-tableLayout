@@ -7,16 +7,12 @@ body {
   background: #eee;
 }
 h1 {
-  font-size: 1.4em;
-  padding: 20px 0 15px;
-}
-h2 {
   font-size: 1.2em;
   padding: 8px 0 10px;
   margin: 40px 0 0;
   border-top: 1px solid black;
 }
-h3 {
+h2 {
   font-size: 1em;
   padding: 0 0 10px;
 }
